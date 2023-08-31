@@ -116,3 +116,13 @@ h2, h3 {
 	left: 28%;
 	width: 48%;
 }
+
+@media (max-width: 375px) {
+	article {
+		width: 90%;
+		height: 50%;
+	}
+	body {
+		background-position: -100% 50%, -30% -70%;
+	}
+}
